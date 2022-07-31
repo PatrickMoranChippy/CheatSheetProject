@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Links | Cheat Sheet</title>
+    <link rel="stylesheet" href="./css/styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Source+Code+Pro&display=swap" rel="stylesheet">
+</head>
+<body>   
+    <!--Header section-->
+    <header>
+        <h1>HTML Links: CheatSheet</h1>
+    </header><br>
+
+    <!--Hyperlinks section-->
+    <main>
+        <div class="first">
+            <h2>Hyperlinks:</h2>
+            <h3 class="code">&lt;a&gt;</h3>
+            <p>This anchor tag is used to create a hyperlink on an HTML document.</p>
+            <table class="hyperlinks">
+                <thead>
+                    <tr>
+                        <th>
+                            <h4>Type of Link:</h4>
+                        </th>
+                        <th>
+                            <h4>Attribute:</h4>
+                        </th>
+                        <th>
+                            <h4>Description:</h4>
+                        </th>
+                        <th>
+                            <h4>Example:</h4>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <h5>Text links</h5>
+                        </td>
+                        <td>
+                            <h5 class="code">&lt;a href=""&gt;'link'&lt;/a&gt;</h5>
+                        </td>
+                        <td>
+                            <h5>This text becomes the recognised hyperlink to another page</h5>
+                        </td>
+                        <td>
+                            <h5 class="code">&lt;a href="http://www.google.com"&gt;Back to Google&lt;/a&gt;</h5>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5>Internal links</h5>
+                        </td>
+                        <td>
+                            <h5 class="code">&lt;a href="#"&gt;'link'&lt;/a&gt;</h5>
+                        </td>
+                        <td>
+                            <h5>This will create a link to somewhere on the same page with the matching id</h5>
+                        </td>
+                        <td>
+                            <h5 class="code">&lt;a href="#contact"&gt;'Contact'&lt;/a&gt;</h5>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5>Image Links</h5>
+                        </td>
+                        <td>
+                            <h5 class="code">&lt;a href=""&gt; &lt;img src=""/&gt;'link'&lt;/a&gt;</h5>
+                        </td>
+                        <td>
+                            <h5>This create a link in an image placed on the page</h5>
+                        </td>
+                        <td>
+                            <h5 class="code">&lt;a href="http://www.google.com"&gt; &lt;img src="googlelogo.jpg"/&gt; &lt;/a&gt;</h5>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5>Email links</h5>
+                        </td>
+                        <td>
+                            <h5 class="code">&lt;a href=""&gt;'email'&lt;/a&gt;</h5>
+                        </td>
+                        <td>
+                            <h5>This string will connect an email to accound to the attribute</h5>
+                        </td>
+                        <td>
+                            <h5 class="code">&lt;a href="mailto:email@yourmail.com"&gt;'email@yourmail.com'&lt;/a&gt;</h5>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <!--Link Element section-->
+        <div class="second">
+            <h2>Link Element:</h2>
+                <h3 class="code">&lt;link&gt;</h3>
+                <p>This element is used to connect the HTML document to an outside resource, like CSS style sheets. This element is self-closing.</p>
+            <table class="linkelement">
+                <thead>
+                    <tr>
+                        <th>
+                            <h4>Type of Link:</h4>
+                        </th>
+                        <th>
+                            <h4>Attribute:</h4>
+                        </th>
+                        <th>
+                            <h4>Description:</h4>
+                        </th>
+                        <th>
+                            <h4>Example:</h4>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">
+                            <h5 class="code">&lt;link/&gt;</h5>
+                        </td>
+                        <td>
+                            <h5>rel=""</h5>
+                        </td>
+                        <td>
+                            <h5>This describes the format of the external source</h5>
+                        </td>
+                        <td rowspan="2">
+                            <h5 class="code">&lt;link rel="stylesheet" href="an/external/source.css"/&gt;</h5>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5>href=""</h5>
+                        </td>
+                        <td>
+                            <h5>This contains the filepath to the external source</h5>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <!--References section-->
+    <footer>
+        <h2>References</h2>
+            <a class="link" href="https://www.codecademy.com/resources/docs/html/links" target="_blank">HTML | Links | Codecademy</a>
+            <p>Made in Oz by Patrick Moran.</p>
+    </footer>
+</body>
+
+</html>
